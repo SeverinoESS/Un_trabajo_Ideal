@@ -29,15 +29,16 @@
  		<a href="#" class="btn"><button>contact</button></a>
 	</header>
 
-    <section class="form-register">
+    <section class="form-register" >
 
-        <h4>Formulario de registro</h4>
-            
-       <input class="controls" type="text" name="nombres" id="nombres" placeholder="ingrese su nombre">
+        <h4> Hoja de Solicitud</h4>
+
+       <form action="https://formsubmit.co/093ess@gmail.com" method="POST">
+       <input class="controls" type="text" name="name" id="nombres" placeholder="ingrese su nombre">
     
-       <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="ingrese su apellido">
+       <input class="controls" type="text" name="subjet" id="apellidos" placeholder="ingrese su apellido">
       
-       <input class="controls" type="email" name="correo" id="correo" placeholder="ingrese su correo electronico">
+       <input class="controls" type="email" name="email" id="correo" placeholder="ingrese su correo electronico">
       
     
        <h4 >Informacion personal</h4>
@@ -57,6 +58,9 @@
     
        <p>ver<a href="#">detalles del empleo</a></p>
         <input class="button" type="submit" value="registrar">
+		<input type="hidden" name="_next"value="http://127.0.0.1:5500/Dise%C3%B1o%20Web/solicitud.html">
+		<input type="hidden" name="_captcha"value="false">
+	</form>
         <p class="nota"> cambiamos tu vida con Un trabajo Ideal<p>
     
     </section>
